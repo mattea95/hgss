@@ -12,6 +12,7 @@ class dojavaLista extends Component {
     this.remove = this.remove.bind(this);
   }
 
+  
   componentDidMount = () => {
     FirebaseService.getAll().on("value", this.onDataChange);
   }
