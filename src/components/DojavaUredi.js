@@ -35,6 +35,7 @@ class DojavaUredi extends Component {
     FirebaseService.getAll().off("value", this.onDataChange);
   }
 
+  
   onDataChange = (item) => {
     let data = item.val();
     let dojava = {
