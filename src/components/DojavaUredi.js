@@ -78,7 +78,7 @@ class DojavaUredi extends Component {
 
   render = () => {
     const {item} = this.state;
-    const title = <h2>{item.key ? 'Uredi postojeću dojavu' : 'Dodaj dojavu'}</h2>;
+    const title = <h2>{item.key ? 'Uredi postojeću dojavu' : 'Prijavi nesreću'}</h2>;
 
     return <div>
       <AppNavbar/>
