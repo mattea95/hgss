@@ -79,9 +79,6 @@ class dojavaLista extends Component {
       <div>
         <AppNavbar/>
         <Container fluid>
-          <div className="float-right">
-            <Button color="success" tag={Link} to="/dojava/new">Dodaj dojavu</Button>
-          </div>
           <h3>Lista dojava</h3>
           <Table className="mt-4">
             <thead>
