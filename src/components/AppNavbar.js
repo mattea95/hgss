@@ -25,6 +25,10 @@ export default class AppNavbar extends Component {
             <NavLink
               href="http://www.hgss.hr/">Službena web stranica</NavLink>
           </NavItem>
+          <NavItem>
+            <NavLink
+              href="/dojava">Login</NavLink>
+          </NavItem>
         </Nav>
       </Collapse>
     </Navbar>;
